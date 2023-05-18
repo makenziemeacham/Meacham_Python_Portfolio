@@ -1,6 +1,8 @@
 # Meacham_Python_Portfolio
 A portfolio of the code I used in BISC 516C.
 
+## Jupyter 1 and 2 code
+In this section we learned how to look at data and graph it.
 
 ```python
 %matplotlib inline
@@ -24,19 +26,7 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -104,19 +94,7 @@ df.tail()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -189,19 +167,7 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -299,19 +265,7 @@ df.loc[non_numeric_profits].head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -399,6 +353,7 @@ len(df.profit[non_numeric_profits])
 bin_sizes, _, _ = plt.hist(df.year[non_numeric_profits], bins= range(1955, 2006))
 ```
 
+![jupyter 1](https://github.com/makenziemeacham/Meacham_Python_Portfolio/assets/133699963/4ce08803-bc04-4875-8a61-0fc0a7212120)
 
 ![png](output_11_0.png)
 
@@ -457,6 +412,7 @@ fig, ax = plt.subplots()
 plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005', 'Profit (millions)')
 ```
 
+![jupyter 2](https://github.com/makenziemeacham/Meacham_Python_Portfolio/assets/133699963/731622a5-ea33-4078-af71-dd07366b5516)
 
 ![png](output_16_0.png)
 
@@ -468,6 +424,7 @@ fig, ax = plt.subplots()
 plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005', 'Revenue (millions)')
 ```
 
+![jupyter 3](https://github.com/makenziemeacham/Meacham_Python_Portfolio/assets/133699963/13987d17-ed76-4815-a838-ed0595dd927e)
 
 ![png](output_17_0.png)
 
@@ -487,16 +444,8 @@ fig.set_size_inches(14,4)
 fig.tight_layout()
 ```
 
+![jupyter 4](https://github.com/makenziemeacham/Meacham_Python_Portfolio/assets/133699963/cc39d668-9e56-43a6-b6e0-e10ac49c6b29)
 
 ![png](output_18_0.png)
 
 
-
-```python
-
-```
-
-
-```python
-
-```
